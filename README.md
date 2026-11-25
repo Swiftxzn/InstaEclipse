@@ -5,12 +5,12 @@
   A Vector (Xposed) module for privacy, downloads, a cleaner feed, smarter stories and DMs, and your own look. Everything is a switch inside Instagram.</p>
 
   <p>
-    <a href="https://github.com/ReSo7200/InstaEclipse/releases/latest"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/ReSo7200/InstaEclipse?style=for-the-badge&logo=github&color=1a1a2e&labelColor=0d0d0d"/></a>
-    <a href="https://github.com/ReSo7200/InstaEclipse/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/ReSo7200/InstaEclipse?style=for-the-badge&logo=github&color=1a1a2e&labelColor=0d0d0d"/></a>
-    <a href="https://github.com/ReSo7200/InstaEclipse/releases/latest"><img alt="Downloads" src="https://img.shields.io/github/downloads/ReSo7200/InstaEclipse/total?style=for-the-badge&logo=github&color=1a1a2e&labelColor=0d0d0d"/></a>
+    <a href="https://github.com/Swiftxzn/InstaEclipse/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/Swiftxzn/InstaEclipse?style=for-the-badge&logo=github&color=1a1a2e&labelColor=0d0d0d"/></a>
+    <a href="https://github.com/Swiftxzn/InstaEclipse/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Swiftxzn/InstaEclipse?style=for-the-badge&logo=github&color=1a1a2e&labelColor=0d0d0d"/></a>
+    <a href="https://github.com/Swiftxzn/InstaEclipse/releases/latest"><img alt="Downloads" src="https://img.shields.io/github/downloads/Swiftxzn/InstaEclipse/total?style=for-the-badge&logo=github&color=1a1a2e&labelColor=0d0d0d"/></a>
     <a href="https://t.me/Eclipse_mods_a"><img alt="Telegram Announcements" src="https://img.shields.io/badge/Telegram-Announcements-26A5E4?style=for-the-badge&logo=telegram&labelColor=0d0d0d"/></a>
     <a href="https://t.me/EclipseMods_Discussion"><img alt="Telegram Chat" src="https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram&labelColor=0d0d0d"/></a>
-    <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/ReSo7200/InstaEclipse?style=for-the-badge&color=1a1a2e&labelColor=0d0d0d"/></a>
+    <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/Swiftxzn/InstaEclipse?style=for-the-badge&color=1a1a2e&labelColor=0d0d0d"/></a>
   </p>
 
   <p>
@@ -343,7 +343,7 @@ A big Instagram update can still knock a feature out until it is patched. The me
 
 > Get Instagram [455.0.0.8.72 from APKMirror](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-455-0-0-8-72-release/) rather than the Play Store. The Play build is not always fully supported.
 
-Download the latest InstaEclipse APK from [**Releases**](https://github.com/ReSo7200/InstaEclipse/releases/latest), then follow the path for your phone. Each release has two builds with the same features:
+Download the latest InstaEclipse APK from [**Releases**](https://github.com/Swiftxzn/InstaEclipse/releases), then follow the path for your phone. Each release has two builds with the same features:
 
 | Build | For |
 |---|---|
@@ -437,18 +437,19 @@ Ask in the [Telegram group](https://t.me/EclipseMods_Discussion). Someone will h
 
 ### Maintainer
 
-<a href="https://github.com/ReSo7200">
-  <img src="https://github.com/ReSo7200.png" width="80" alt="ReSo7200" style="border-radius:50%"/><br/>
-  <b>ReSo7200</b>
+<a href="https://github.com/Swiftxzn">
+  <img src="https://github.com/Swiftxzn.png" width="80" alt="Swiftxzn" style="border-radius:50%"/><br/>
+  <b>Swiftxzn</b>
 </a>
 
 <br/><br/>
 
 ### Everyone who has pitched in
 
-<a href="https://github.com/ReSo7200/InstaEclipse/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ReSo7200/InstaEclipse" alt="Contributors"/>
+<a href="https://github.com/Swiftxzn/InstaEclipse/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Swiftxzn/InstaEclipse" alt="Contributors"/>
 </a>
+
 
 <sub>Made with <a href="https://contrib.rocks">contrib.rocks</a></sub>
 
@@ -472,8 +473,8 @@ Ask in the [Telegram group](https://t.me/EclipseMods_Discussion). Someone will h
 
 Pull requests, bug reports, ideas and translations are all welcome.
 
-- Found a bug? [Open a bug report](https://github.com/ReSo7200/InstaEclipse/issues/new/choose)
-- Have an idea? [Request a feature](https://github.com/ReSo7200/InstaEclipse/issues/new/choose)
+- Found a bug? [Open a bug report](https://github.com/Swiftxzn/InstaEclipse/issues/new/choose)
+- Have an idea? [Request a feature](https://github.com/Swiftxzn/InstaEclipse/issues/new/choose)
 - Want to build something? Fork the repo and open a pull request
 
 ---
