@@ -214,7 +214,7 @@ public class DialogUtils {
 
         // Footer Credit
         TextView footer = new TextView(context);
-        footer.setText("@reso7200  ·  " + moduleVersion(context));
+        footer.setText("@Swiftxzn  ·  " + moduleVersion(context));
         footer.setTextColor(C_TEXT2);
         footer.setTextSize(13);
         footer.setPadding(16, 26, 16, 8);

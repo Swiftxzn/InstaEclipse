@@ -720,7 +720,8 @@ public class HomeFragment extends Fragment {
         LinearLayout specialThanksContainer = rootView.findViewById(R.id.special_thanks_container);
 
         List<Contributor> contributors = Arrays.asList(
-                new Contributor("ReSo7200", "https://github.com/ReSo7200", "https://linkedin.com/in/abdalhaleem-altamimi", null),
+                new Contributor("ReSo7200", "https://github.com/ReSo7200", null, null),
+                new Contributor("Swiftxzn", "https://github.com/Swiftxzn", null, null),
                 new Contributor("swakwork", "https://github.com/swakwork", null, null),
                 new Contributor("isma3iloiso", "https://github.com/isma3iloiso", null, null),
                 new Contributor("Placeholder6", "https://github.com/Placeholder6", null, null),
@@ -754,10 +755,8 @@ public class HomeFragment extends Fragment {
         );
 
         List<Contributor> specialThanks = Arrays.asList(
-                new Contributor("xHookman", "https://github.com/xHookman", null, null),
-                new Contributor("Bluepapilte", null, null, "https://t.me/instasmashrepo"),
-                new Contributor("BdrcnAYYDIN", null, null, "https://t.me/BdrcnAYYDIN"),
-                new Contributor("Amàzing World", null, null, null)
+                new Contributor("ReSo7200", "https://github.com/ReSo7200", null, null),
+                new Contributor("Swiftxzn", "https://github.com/Swiftxzn", null, null)
         );
 
         // Inflate each list twice so the loop restarts seamlessly

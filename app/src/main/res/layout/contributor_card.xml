@@ -38,7 +38,7 @@
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:textColor="#FFFFFF"
-                tools:text="R" />
+                tools:text="S" />
 
             <ImageView
                 android:id="@+id/contributor_avatar_img"
@@ -62,7 +62,7 @@
             android:maxLines="1"
             android:ellipsize="end"
             android:layout_marginBottom="10dp"
-            tools:text="ReSo7200" />
+            tools:text="Swiftxzn" />
 
         <!-- Social Buttons Row -->
         <LinearLayout

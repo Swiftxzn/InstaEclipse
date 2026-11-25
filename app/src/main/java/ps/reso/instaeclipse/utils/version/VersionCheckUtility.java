@@ -23,8 +23,8 @@ import java.util.concurrent.Executors;
 
 public class VersionCheckUtility {
 
-    private static final String VERSION_CHECK_URL = "https://raw.githubusercontent.com/ReSo7200/InstaEclipse/refs/heads/main/version.json";
-    private static final String RELEASES_URL = "https://github.com/ReSo7200/InstaEclipse/releases/latest";
+    private static final String VERSION_CHECK_URL = "https://raw.githubusercontent.com/Swiftxzn/InstaEclipse/refs/heads/main/version.json";
+    private static final String RELEASES_URL = "https://github.com/Swiftxzn/InstaEclipse/releases/latest";
     private static final int TIMEOUT_MS = 10_000;
     private static final int MAX_RESPONSE_CHARS = 16 * 1024;
 
