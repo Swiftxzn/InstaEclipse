@@ -17,8 +17,8 @@
 
     <!-- Eclipse Mods signature (shared across all Eclipse mods) -->
     <string name="eclipse_mods_wordmark">✦  ECLIPSE MODS  ✦</string>
-    <string name="eclipse_mods_tagline">Part of the Eclipse Mods collection</string>
-    <string name="eclipse_mods_disclaimer">InstaEclipse by ReSo · not affiliated with Instagram</string>
+    <string name="eclipse_mods_tagline">Atualizado por Swiftxzn</string>
+    <string name="eclipse_mods_disclaimer">InstaEclipse by Swiftxzn · not affiliated with Instagram</string>
 
     <!-- No-root Instagram patcher -->
     <string name="patch_title">Patch Instagram (no root)</string>

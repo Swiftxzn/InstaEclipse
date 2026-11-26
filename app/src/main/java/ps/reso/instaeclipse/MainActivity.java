@@ -1,9 +1,9 @@
 package ps.reso.instaeclipse;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.FrameLayout;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -21,7 +21,6 @@ import ps.reso.instaeclipse.utils.version.VersionCheckUtility;
 
 public class MainActivity extends AppCompatActivity {
 
-    @SuppressLint("NonConstantResourceId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // intentionally NOT applying DynamicColors — 0.7 ships a fixed branded dark palette
@@ -74,34 +73,38 @@ public class MainActivity extends AppCompatActivity {
 
         // Handle bottom navigation item clicks
         bottomNavigation.setOnItemSelectedListener(item -> {
-            Fragment selectedFragment = null;
+            int itemId = item.getItemId();
+            Fragment selectedFragment;
 
-            if (item.getItemId() == R.id.nav_home) {
+            if (itemId == R.id.nav_home) {
                 selectedFragment = new HomeFragment();
-            } else if (item.getItemId() == R.id.nav_features) {
+            } else if (itemId == R.id.nav_features) {
                 selectedFragment = new FeaturesFragment();
-            } else if (item.getItemId() == R.id.nav_logs) {
+            } else if (itemId == R.id.nav_logs) {
                 selectedFragment = new LoggingFragment();
-            } else if (item.getItemId() == R.id.nav_help) {
+            } else if (itemId == R.id.nav_help) {
                 selectedFragment = new HelpFragment();
+            } else {
+                return false;
             }
 
-            if (selectedFragment != null) {
-                getSupportFragmentManager()
-                        .beginTransaction()
-                        .replace(R.id.fragment_container, selectedFragment)
-                        .commit();
-            }
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.fragment_container, selectedFragment)
+                    .commit();
             return true;
         });
-    }
 
-    @Override
-    public void onBackPressed() {
-        if (getSupportFragmentManager().getBackStackEntryCount() > 0) {
-            getSupportFragmentManager().popBackStack();
-        } else {
-            super.onBackPressed();
-        }
+        getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                if (getSupportFragmentManager().getBackStackEntryCount() > 0) {
+                    getSupportFragmentManager().popBackStack();
+                } else {
+                    setEnabled(false);
+                    getOnBackPressedDispatcher().onBackPressed();
+                }
+            }
+        });
     }
 }
