@@ -23,16 +23,6 @@
   </p>
 </div>
 
----
-
-<p align="center">
-  
-  <a href="https://trendshift.io/repositories/14145?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-14145" target="_blank" rel="noopener noreferrer">
-    <img src="https://trendshift.io/api/badge/trendshift/repositories/14145/daily?language=Java" alt="Swiftxzn%2FInstaEclipse | Trendshift" width="250" height="55"/>
-  </a>
-<a href="https://trendshift.io/repositories/14145?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-14145" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/14145" alt="Swiftxzn%2FInstaEclipse | Trendshift" width="250" height="55"/></a>
-</p>
-
 ## What is it
 
 InstaEclipse is a module for [Vector](https://github.com/JingMatrix/Vector), the Xposed framework formerly known as LSPosed (rooted phones), and [LSPatch](https://github.com/JingMatrix/LSPatch) (no root). Long press the Explore (search) tab inside Instagram and the InstaEclipse menu slides up. Flip what you want, and most things apply right away.
