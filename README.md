@@ -8,8 +8,6 @@
     <a href="https://github.com/Swiftxzn/InstaEclipse/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/Swiftxzn/InstaEclipse?style=for-the-badge&logo=github&color=1a1a2e&labelColor=0d0d0d"/></a>
     <a href="https://github.com/Swiftxzn/InstaEclipse/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Swiftxzn/InstaEclipse?style=for-the-badge&logo=github&color=1a1a2e&labelColor=0d0d0d"/></a>
     <a href="https://github.com/Swiftxzn/InstaEclipse/releases/latest"><img alt="Downloads" src="https://img.shields.io/github/downloads/Swiftxzn/InstaEclipse/total?style=for-the-badge&logo=github&color=1a1a2e&labelColor=0d0d0d"/></a>
-    <a href="https://t.me/Eclipse_mods_a"><img alt="Telegram Announcements" src="https://img.shields.io/badge/Telegram-Announcements-26A5E4?style=for-the-badge&logo=telegram&labelColor=0d0d0d"/></a>
-    <a href="https://t.me/EclipseMods_Discussion"><img alt="Telegram Chat" src="https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram&labelColor=0d0d0d"/></a>
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/Swiftxzn/InstaEclipse?style=for-the-badge&color=1a1a2e&labelColor=0d0d0d"/></a>
   </p>
 
